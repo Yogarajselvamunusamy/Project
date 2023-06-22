@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BulkyBook.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        }
+      },
+      "BulkyBook.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BulkyBook.Models/1.0.0": {
+      "type": "project",
+      "path": "../Bulky.Models/BulkyBook.Models.csproj",
+      "msbuildProject": "../Bulky.Models/BulkyBook.Models.csproj"
+    },
+    "BulkyBook.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Bulky.Utility/BulkyBook.Utility.csproj",
+      "msbuildProject": "../Bulky.Utility/BulkyBook.Utility.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "BulkyBook.Models >= 1.0.0",
+      "BulkyBook.Utility >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\imyog\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\New folder\\Bulky_MVC-master\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectName": "BulkyBook.DataAccess",
+      "projectPath": "D:\\New folder\\Bulky_MVC-master\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\imyog\\.nuget\\packages\\",
+      "outputPath": "D:\\New folder\\Bulky_MVC-master\\Bulky.DataAccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\imyog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\New folder\\Bulky_MVC-master\\Bulky.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "D:\\New folder\\Bulky_MVC-master\\Bulky.Models\\BulkyBook.Models.csproj"
+            },
+            "D:\\New folder\\Bulky_MVC-master\\Bulky.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "D:\\New folder\\Bulky_MVC-master\\Bulky.Utility\\BulkyBook.Utility.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
